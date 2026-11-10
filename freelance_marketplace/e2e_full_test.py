@@ -288,3 +288,4 @@ User.objects.filter(username__in=['e2e_student', 'e2e_client']).delete()
 print("\n" + "=" * 70)
 print(f"  FULL PROJECT TEST RESULTS: {passed_count} / {total_tests} PASSED (100% SUCCESS)")
 print("=" * 70)
+
