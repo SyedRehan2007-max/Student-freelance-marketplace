@@ -2,13 +2,13 @@
 title Push Project to GitHub
 echo ===================================================
 echo Pushing Student Freelance Marketplace to GitHub...
-echo Repository: https://github.com/SyedRehan2007-max/Student-freelance-market.git
+echo Repository: https://github.com/SyedRehan2007-max/Student-freelance-marketplace.git
 echo ===================================================
 echo.
 cd /d "%~dp0"
-echo Running: git push -u origin main
+echo Running: git push origin main
 echo.
-git push -u origin main
+git push origin main
 echo.
 if %ERRORLEVEL% equ 0 (
     echo ===================================================
@@ -22,4 +22,3 @@ if %ERRORLEVEL% equ 0 (
 )
 echo.
 pause
-
